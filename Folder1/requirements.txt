@@ -1,0 +1,18 @@
+
+fastapi           # For building the API
+uvicorn           # ASGI server to run FastAPI
+PyPDF2            # For PDF parsing
+transformers      # For NLP summarization models
+pymongo           # For MongoDB interaction
+scikit-learn      # If you're using keyword extraction (like TF-IDF)
+nltk              # If you're using additional NLP tools
+
+Explanation of Each Dependency:
+
+FastAPI: The framework to build APIs.
+Uvicorn: A lightning-fast ASGI server for running your FastAPI app.
+PyPDF2: For extracting text from PDFs.
+Transformers: To load and use transformer models for text summarization.
+Pymongo: To interact with MongoDB, store and retrieve summaries or related data.
+Scikit-learn: If you are using it for keyword extraction (e.g., TF-IDF).
+NLTK: For additional natural language processing tasks.
